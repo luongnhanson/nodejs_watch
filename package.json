@@ -1,0 +1,30 @@
+{
+  "name": "shopwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js 80",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luongnhanson/nodejs_watch.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "son",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luongnhanson/nodejs_watch/issues"
+  },
+  "homepage": "https://github.com/luongnhanson/nodejs_watch#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
